@@ -11,7 +11,6 @@ class Solution {
       }
       
       helper(ans, arr, n, index+1,sum+arr[index]);
-      sum = sum - arr[index];
       helper(ans, arr, n, index+1,sum);
       return sum;
       
